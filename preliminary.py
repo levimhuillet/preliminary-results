@@ -266,6 +266,7 @@ def classify(model, filepath):
     return classification
 
 
+model = train('./prelimFiles/training/', 0)
 print(classify(model, './prelimFiles/test/at-risk/0.txt'))
 print(classify(model, './prelimFiles/test/at-risk/1.txt'))
 print(classify(model, './prelimFiles/test/at-risk/2.txt'))
